@@ -11,7 +11,7 @@ export default function App(){
     )
 } */
 
-    import Contact from "./components/Contact"
+  /*   import Contact from "./components/Contact"
 
 function App() {
     return (
@@ -44,4 +44,31 @@ function App() {
     )
 }
 
-export default App
+export default App */
+
+
+import Joke from "./components/Joke.jsx";
+
+export default function App() {
+    return (
+        <>
+        <Joke 
+        setup= "I got my daughter a fridge for her birthday."
+        punchline= "I can't wait to see her face light up when she opens it."
+    
+        />
+
+
+<Joke 
+        setup= "How did the hacker escape the police?"
+        punchline= "He just ransomware!"
+        />
+
+<Joke 
+        setup= "Why don't pirates travel on mountain roads?"
+        punchline= "Scurvy."
+        />
+        
+        </>
+    )
+}
