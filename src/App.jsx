@@ -1,4 +1,4 @@
-
+/* 
 import Header from "./components/Header.jsx"
 import Entry from "./components/Entry.jsx"
 
@@ -23,9 +23,21 @@ export default function App() {
             </main>
         </>
     )
-}
+} */
 
-
+    export default function App() {
+        const ninjaTurtles = [
+            <h2>Donatello</h2>, 
+            <h2>Michaelangelo</h2>,
+            <h2>Rafael</h2>,
+            <h2>Leonardo</h2>
+        ]
+        return (
+            <main>
+                {ninjaTurtles}
+            </main>
+        )
+    }
 
 
 
