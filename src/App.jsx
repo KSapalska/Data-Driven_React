@@ -1,41 +1,33 @@
-/* import Header from "./components/Header.jsx";
-import Entry from "./components/Entry.jsx";
 
-export default function App(){
-    return (
-        <>
-        <Header />
-        <Entry />
-        <Entry />
-        </>
-    )
-} */
-
-  /*   import Contact from "./components/Contact"
+import Contact from "./components/Contact"
+import mrWhiskerson from "./assets/felix.png"
+import fluffykins from "./assets/mr-whiskerson.png"
+import felix from "./assets/pumpkin.png"
+import pumpkin from "./assets/felix.png"
 
 function App() {
     return (
         <div className="contacts">
             <Contact
-                img="./src/assets/felix.png"
+                img={mrWhiskerson}
                 name="Mr. Whiskerson"
                 phone="(212) 555-1234"
                 email="mr.whiskaz@catnap.meow"
             />
             <Contact
-                img="./src/assets/mr-whiskerson.png"
+                img={fluffykins}
                 name="Fluffykins"
                 phone="(212) 555-2345"
                 email="fluff@me.com"
             />
             <Contact
-                img="./src/assets/pumpkin.png"
+                img={felix}
                 name="Felix"
                 phone="(212) 555-4567"
                 email="thecat@hotmail.com"
             />
             <Contact 
-                img="./src/assets/felix.png"
+                img= {pumpkin}
                 name="Pumpkin"
                 phone="(0800) CAT KING"
                 email="pumpkin@scrimba.com"
@@ -44,10 +36,10 @@ function App() {
     )
 }
 
-export default App */
+export default App 
 
 
-import Joke from "./components/Joke.jsx";
+/* import Joke from "./components/Joke.jsx";
 
 
 export default function App() {
@@ -85,3 +77,4 @@ export default function App() {
     )
 }
 
+ */
